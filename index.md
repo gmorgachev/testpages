@@ -2,7 +2,7 @@
 
 <ul>
   {% for post in site.posts %}
-    {% if post.categories contains "news" %}
+    <!-- {% if post.categories contains "news" %} -->
       <li style="list-style-type:none">
         <h2>{{ post.title }}</h2>
         <div id="list">
@@ -10,6 +10,6 @@
         </div>
         <br/>
       </li>
-    {% endif %}
+    <!-- {% endif %} -->
   {% endfor %}
 </ul>
