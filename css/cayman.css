@@ -9,6 +9,11 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+ .links{
+    position: relative;
+    bottom: -240px;            
+}
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -53,7 +58,7 @@ a {
 .page-header { color: #fff;
     text-align: center;
     min-height: 400px;
-    max-width: 1980px;
+    /* max-width: 1980px; */
     align-self: center;
     background: none repeat scroll 0 0 rgb(0, 162, 255);
     margin: auto;
@@ -61,14 +66,19 @@ a {
   @media screen and (min-width: 64em) {
     .page-header {
       padding: 5rem 6rem;
+      background-image: url("../Cover5-01.png"); 
     }}
-  @media screen and (min-width: 64em) and (max-width: 64em) {
+  @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header {
       padding: 3rem 4rem;
+      background-image: url("../Avatar4-01.png"); 
+      
      } }
   @media screen and (max-width: 42em) {
     .page-header {
       padding: 2rem 1rem;
+      background-image: url("../Avatar4-01.png"); 
+      
      } }
 
 .project-name {
