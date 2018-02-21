@@ -48,13 +48,11 @@ a {
       .btn + .btn {
         margin-top: 1rem;
         margin-left: 0; } }
-/* 
+
 .page-header {
-  color: #fff;
-  text-align: center;
-  background-image: url("{{ site.baseurl }}/Cover5-01.png");
-  height: 400px;
-} */
+  background-image: url("Cover5-01.png"); /* Путь к фоновому изображению */
+  background-color: #c7b39b; /* Цвет фона */
+}
   @media screen and (min-width: 64em) {
     .page-header {
       padding: 5rem 6rem;
