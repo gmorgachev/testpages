@@ -52,7 +52,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-image: url("https://github.com/gmorgachev/testpages/blob/gh-pages/Cover5-01.png");
+  background-image: url("{{ site.baseurl }}/Cover5-01.png");
   height: 400px;
 }
   @media screen and (min-width: 64em) {
