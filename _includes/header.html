@@ -5,13 +5,19 @@
             background-color: #c7b39b; /* Цвет фона */
         }
         .links{
-            margin-top: 200px;
+            position: relative;
+            bottom: -240px;            
         }
+        .btn{
+        }
+
 </style>
-<section class="links"></section>     
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-    <a href="{{ site.github.repository_url }}" class="btn">ййййййййййй</a>
-    <a href="{{ site.github.repository_url }}" class="btn">Еще одна ссылка</a>
-    <a href="{{ site.github.repository_url }}" class="btn">Еще одна ссылка</a>
+<section class="links">
+    <a href="{{ site.github.repository_url }}" class="btn">Учебные материалы</a>
+    <a href="{{ site.github.repository_url }}" class="btn">Домашнее задание</a>
+    <a href="{{ site.github.repository_url }}" class="btn">Туториалы</a>
+    <a href="{{ site.github.repository_url }}" class="btn">Интересности</a>
 </section>
+
+    
 {% endif %}
