@@ -55,7 +55,7 @@ a {
     min-height: 400px;
     max-width: 1980px;
     align-self: center;
-    background: none repeat scroll 0 0 blue;
+    background: none repeat scroll 0 0 rgb(0, 162, 255);
     margin: auto;
   }
   @media screen and (min-width: 64em) {
