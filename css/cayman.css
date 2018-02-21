@@ -52,8 +52,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-image: url("Cover5-01.png");
-  background-color: #c7b39b; }
+  background-image: url("/Cover5-01.png"); }
   @media screen and (min-width: 64em) {
     .page-header {
       padding: 5rem 6rem; } }
