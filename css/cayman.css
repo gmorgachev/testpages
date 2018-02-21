@@ -54,6 +54,7 @@ a {
     text-align: center;
     min-height: 400px;
     max-width: 1980px;
+    align-self: center;
   }
   @media screen and (min-width: 64em) {
     .page-header {
