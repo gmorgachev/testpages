@@ -9,9 +9,10 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
- .links{
-    position: relative;
-    bottom: -240px;            
+.links {
+  position: relative;
+  padding-bottom: 45%; /* 16:9 */
+	padding-top: 1%;
 }
 .embed-container {
 	position: relative;
@@ -33,6 +34,8 @@ a {
     text-decoration: underline; }
 
 .btn {
+  position: relative;
+  top: 85vh;
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.699);
@@ -67,35 +70,51 @@ a {
         margin-left: 0; } }
 
 
+        
+
 .page-header { color: #fff;
-    text-align: center;
-    min-height: 400px;
-    /* max-width: 1980px; */
-    align-self: center;
-    background: none repeat scroll 0 0 rgb(255, 255, 255);
-    margin: auto;
-  }
-  @media screen and (min-width: 64em) {
-    .page-header {
-      padding: 5rem 6rem;
-      background-image: url("../Cover5-01.png"); 
-      background-position: center;
-      background-repeat: no-repeat;
-    }}
-  @media screen and (min-width: 42em) and (max-width: 64em) {
-    .page-header {
-      padding: 3rem 4rem;
-      background-image: url("../PhoneBack2-01.png"); 
-      background-position: center;
-      background-repeat: no-repeat;      
-     } }
-  @media screen and (max-width: 42em) {
-    .page-header {
-      padding: 2rem 1rem;
-      background-image: url("../PhoneBack2-01.png");
-      background-position: center;
-      background-repeat: no-repeat;      
-     } }
+  text-align: center;
+  align-self: center;
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  margin: auto;
+}
+
+@media screen and (min-width: 64em) {
+.links{
+    position: relative;
+    bottom: -240px;            
+
+}
+.page-header {
+  padding: 5rem 6rem;
+  max-width: 1980px;  
+  height: 500px;  
+  background-image: url("../Cover5-01.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}}
+
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+.page-header {
+  padding: 3rem 4rem;  
+  width: 100%;
+  background-image: url("../PhoneBack2-01.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+} }
+
+@media screen and (max-width: 42em) {
+.page-header {
+  padding: 1rem 2rem;    
+  width: 100%;
+  background-image: url("../PhoneBack2-01.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+} }
 
 .project-name {
   margin-top: 0;
