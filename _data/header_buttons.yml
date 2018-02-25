@@ -1,8 +1,8 @@
 - name: О школе
-  addres: /
+  addres: 
 
 - name: Учебные материалы
-  addres: /materials
+  addres: materials
 
 - name: Домашняя работа
   addres: 
@@ -11,4 +11,4 @@
   addres: https://github.com/gmorgachev/testpages/wiki
 
 - name: Интересное
-  addres: /interestings
+  addres: interestings
