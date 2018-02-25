@@ -2,10 +2,7 @@
 <div class="links">
 </div>
 {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">Зарегистрироваться</a>    
-    <a href="{{ site.github.repository_url }}" class="btn">Учебные материалы</a>
-    <a href="{{ site.github.repository_url }}" class="btn">Домашнее задание</a>
-    <a href="https://github.com/gmorgachev/testpages/wiki" class="btn">Туториалы</a>
-    <a href="{{ site.github.repository_url }}" class="btn">Интересности</a>
-    
+    {% for url in include.urls%}
+            <a href="{{url.addres}}" class="btn">{{url.name }}</a>
+    {% endfor %}
 {% endif %}

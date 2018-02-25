@@ -1,17 +1,16 @@
 ---
-title: О школе
+title: Учебные материалы
 layout: default
 ---
 
-<!-- TODO -->
-<a href="/" class="bigbutton">Регистрация</a>
-
 <ul>
   {% for post in site.posts %}
-    {% if post.categories contains "about" %}
+    {% if post.categories contains "materials" %}
     
       <li style="list-style-type:none">
+        <h2>{{ post.title }}</h2>
         <div id="list">
+        
           {{ post }}
          
         </div>

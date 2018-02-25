@@ -1,23 +1,18 @@
 ---
-title: О школе
+title: Интересное
 layout: default
 ---
 
-<!-- TODO -->
-<a href="/" class="bigbutton">Регистрация</a>
-
 <ul>
   {% for post in site.posts %}
-    {% if post.categories contains "about" %}
+    {% if post.categories contains "interesting" %}
     
       <li style="list-style-type:none">
         <div id="list">
           {{ post }}
-         
         </div>
         <br/>
-      </li>
-
+      </li>s
     {% endif %}
   {% endfor %}
 </ul>
