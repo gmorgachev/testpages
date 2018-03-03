@@ -16,3 +16,5 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 {% include youtubePlayer.html id=page.youtubeId %}
+
+ # Загрузка файлов

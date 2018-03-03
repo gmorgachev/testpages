@@ -2,10 +2,6 @@
 title: О школе
 layout: default
 ---
-
-<!-- TODO -->
-<a href="/" class="bigbutton">Регистрация</a>
-
 <ul>
   {% for post in site.posts %}
     {% if post.categories contains "about" %}
@@ -21,3 +17,4 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe2UmICzSIlqCYgWYh_11RUZK7d19jPb43tq8X4W2JV5y8ltQ/viewform" class="bigbtn">Регистрация</a>

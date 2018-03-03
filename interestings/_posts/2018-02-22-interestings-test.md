@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 
 title:  "Test title"
 date:   2018-02-20 22:29:55 +0300
 categories: interesting
@@ -9,4 +9,4 @@ categories: interesting
 -----
 Тут везде надо писать в **markdown**
 
-[Cheetlist](htttps://www.github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Cheetlist](https://www.github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
